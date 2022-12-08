@@ -60,17 +60,4 @@ Prints a string in reverse.
 Prints a string converted to rot13
 .TP
 .B %
-11;rgb:0000/0000/0000A '%' is written but no argument is converted. The complete version specification is '%%'
-.SH EXAMPLE
-To print the day of the year, where weekday and month are pointers to strings and day and year are integers:
 
-#include "main.h"
-
-_printf("%s, %s %d, %d\\n", weekday, month, day, year);
-.SH SEE ALSO
-.I printf(3)
-.SH BUGS
-No known bugs
-.SH AUTHOR
-Faruk Abubakar
-Ojiteli Vivian
